@@ -13,7 +13,9 @@ int main()
 long shiftDigitR(const long num)
 {
     if (num <= 1)
+    {
         return 1;
+    }
     else
     {       
         std::cout << num - (num / 10) * 10  << ' ';
